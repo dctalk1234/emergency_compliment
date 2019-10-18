@@ -39,7 +39,7 @@ const data = [
     "Hello, good looking."
   ];
 
-class Hello extends Component {
+class Compliments extends Component {
     render(){
         return(
             <p>{data[Math.floor(Math.random() * data.length)]}</p>
